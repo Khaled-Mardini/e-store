@@ -47,19 +47,25 @@ This project is a simple Product and Order Management system built with Laravel.
 
 3. Configure your `.env` file with your database credentials.
 
-4. Run migrations and seeders:
+4. Generate application key:
+
+    ```bash
+    php artisan key:generate
+    ```
+
+5. Run migrations and seeders:
 
     ```bash
     php artisan migrate --seed
     ```
 
-5. Start the development server:
+6. Start the development server:
 
     ```bash
     php artisan serve
     ```
 
-6. Open your browser and navigate to `http://localhost:8000`.
+7. Open your browser and navigate to `http://localhost:8000`.
 
 ---
 
@@ -100,3 +106,7 @@ A global scope named `NotDeletedScope` is applied to models to automatically exc
 -   `/orders` — Resource routes for managing orders
 
 ---
+
+```
+
+```
